@@ -8,15 +8,16 @@ import Imperdibles from "./components/Imperdibles";
 
 export default function Home() {
   return (
-    <>
+ 
+    <div className="">
       <Navbar />
       <Hero
         title="Nombre Empresa"
-        backgroundImage="https://placehold.co/1200x600/232323/ffffff?text=INICIO"
+        backgroundImage="https://placehold.co/1200x600/232323/ffffff?text=FOTO"
       />
       <Imperdibles />
       <Valores />
       <Footer />
-    </>
+    </div>
   );
 }
