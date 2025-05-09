@@ -36,7 +36,7 @@ export default function Navbar() {
         }`}
       >
         {/* Lado derecho - Desktop */}
-        <div className="hidden md:flex gap-8 text-sm uppercase tracking-wide ">
+        <div className="hidden md:flex gap-8 text-sm uppercase tracking-wide">
           <Link href="/">Inicio</Link>
           <Link href="/productos">Productos</Link>
         </div>
@@ -72,7 +72,7 @@ export default function Navbar() {
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
-            className="text-white text-2xl focus:outline-none"
+            className="text-2xl focus:outline-none"
           >
             {menuOpen ? "✖" : "☰"}
           </button>

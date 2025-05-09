@@ -3,8 +3,8 @@ import { FaFacebook, FaInstagram, FaWhatsapp, FaLinkedin } from "react-icons/fa"
 
 export default function Socials() {
     return (
-      <section className="w-full h-[200px] flex mb-10 items-center flex-col">
-        <p className="mt-10 font-bold text-2xl mx-90 text-center">
+      <section className="w-full h-auto flex mb-10 items-center flex-col">
+        <p className="mt-10 mb-5 font-bold md:text-2xl mx-5 lg:mx-90 text-center">
           Envíanos un DM a nuestras redes sociales, o un correo directo,
           nosotros te responderemos con prontitud:
         </p>
